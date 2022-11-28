@@ -1,0 +1,3 @@
+/model/wmt14.en-de.fconv-py
+/model/wmt17.v2.en-de.fconv-py/model.pt
+*.bz2
