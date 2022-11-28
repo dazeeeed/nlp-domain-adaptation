@@ -13,20 +13,20 @@ pip install --editable ./
 
 Next, you need to download pre-trained model using links from here: [here](https://github.com/facebookresearch/fairseq/blob/main/examples/translation/README.md). After download it should be extracted from archive and placed in "nlp-domain-adaptation/model" folder so the structure looks like this:
 
-nlp-domain-adaptation
-├── README.md
-├── data
-├── model
-│   ├── README.md
-│   ├── wmt17.v2.en-de.fconv-py
-│   │   ├── README.md
-│   │   ├── bpecodes
-│   │   ├── dict.de.txt
-│   │   ├── dict.en.txt
-│   │   └── model.pt
-│   └── wmt17.v2.en-de.fconv-py.tar.bz2
-└── src
-      └── main.py
+nlp-domain-adaptation  
+├── README.md  
+├── data  
+├── model  
+│   ├── README.md  
+│   ├── wmt17.v2.en-de.fconv-py  
+│   │   ├── README.md  
+│   │   ├── bpecodes  
+│   │   ├── dict.de.txt  
+│   │   ├── dict.en.txt  
+│   │   └── model.pt  
+│   └── wmt17.v2.en-de.fconv-py.tar.bz2  
+└── src  
+      └── main.py  
 
 
 Also install sacremoses and subword-nmt using pip.
